@@ -2,7 +2,7 @@
   "name": "github-api",
   "version": "1.0.0",
   "description": "Cloudflare Worker for GitHub API with token authentication",
-  "main": "src/index.js",
+  "main": "src/github.js",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
@@ -12,6 +12,6 @@
     "itty-router": "^3.0.13"
   },
   "devDependencies": {
-    "wrangler": "^3.0.0"
+    "wrangler": "^4.0.0"
   }
 }
